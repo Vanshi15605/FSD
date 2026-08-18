@@ -1,0 +1,33 @@
+#navbar
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#it
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.item
+{
+    color: white;
+    text-decoration: none;
+}
+#foot{
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.innerdiv{
+     display: inline-block;
+     margin-right: 90px;
+}
