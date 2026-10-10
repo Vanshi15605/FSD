@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body{
+        margin:0;
+        padding:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .card{
+        background-color:rgb(172, 235, 251);
+        border:0.1rem solid rgb(60, 88, 81);
+        width:500px;
+        height:600px;
+        display:flex;
+        flex-direction:column;
+        margin:20%;
+        padding:10%;
+        justify-content:center;
+        align-items: self-start;
+    }
+    .heading-text{
+        color:white;
+    }
+    p{
+        color:white
+    }
+    
+</style>
+<body>
+    <div class="card">
+        <div class="header">
+            <img src="https://www.bing.com/ck/a?!&&p=756ae074669b9f8c4b96d5d66b183fd061a27ea9f17e37c4f231bdbcf64194a9JmltdHM9MTc4ODEzNDQwMA&ptn=3&ver=2&hsh=4&fclid=02d2839a-45ab-6c54-2b21-94bf44196df9&u=a1L2ltYWdlcy9zZWFyY2g_cT1idXMrbG9nbytpbWFnZXMmaWQ9N0JBNDU3MUQ4MjZCMUZGNkU5MTJGNEZFMTUyMERGQkJFQzcyNzY3MSZGT1JNPUlRRlJCQQ">
+            <h1 class="heading-text">Bus Booking System</h1>
+        </div>
+        <div class="userInfo" style="color:rgb(230, 237, 237)">
+            User information
+        </div>
+        <div class="user-input">
+            <p>User Name</p>
+            <input type="text" placeholder="Enter your name">
+            <br>
+            <p>User Age</p>
+            <input type="number" placeholder="Enter your Age">
+            <br>
+            <p>Aadhar Number</p>
+            <input placeholder="Enter Aadhar Number">
+            <br>
+            <p>Select Your City</p>
+            <select>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Ranchi">Ranchi</option>
+                <option value="Agra">Agra</option>
+            </select>
+            <div class="Bus-info">
+                Bus Information
+            </div>
+            <p>Select your bus type</p>
+
+           <input type="radio" name="bustype" value=" AC Bus:2000">AC Bus : 2000  
+            <input type="radio" name="bustype" value=" AC Bus:2000">Non-AC Bus : 1000          
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
