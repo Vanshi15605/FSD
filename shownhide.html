@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="text">Helloooooooooooo</p>
+    <button onclick="toggletext()">Show and Hide</button>
+
+    <script>
+      //document object model DOM structure create krta hai ye
+      function toggletext() {
+        let t = document.getElementById("text");
+        if (t.style.display === "block") {
+          t.style.display = "none";
+        } else {
+          t.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
